@@ -22,5 +22,6 @@
    },
    "files.autoSave": "off",
    "workbench.colorTheme": "Default Light+",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "livePreview.defaultPreviewPath": "/quiz-page.html"
 }
