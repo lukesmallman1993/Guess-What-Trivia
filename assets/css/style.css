@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+/*------------------------------ Index page */
 body {
-    background-color: black;
+    background-color:red;
 }
 
 * {
@@ -84,3 +85,5 @@ h2 {
     font-size:2.5rem;
     margin-left: 1rem;
 }
+
+/*------------------------------ Quiz Page */
