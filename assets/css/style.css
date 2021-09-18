@@ -129,17 +129,17 @@ body {
 
 /* HUD */
 
-#hud {
+#quiz {
     display: flex;
     justify-content: space-between;
 }
 
-.hud-prefix {
+.quiz-prefix {
     text-align: center;
     font-size: 2rem;
 }
 
-.hud-main-text {
+.quiz-main-text {
     text-align: center;
 }
 
