@@ -250,7 +250,7 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    if(availableQuestions.length === 0 || questionCounter == MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('/end.html')
@@ -258,7 +258,7 @@ getNewQuestion = () => {
 
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 10}%`
     
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
@@ -316,7 +316,7 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 
 const MAX_HIGH_SCORES = 5
 
-finalScore.innerText = mostRecentScore
+finalScore.innerText = (mostRecentScore)
 
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value
@@ -346,5 +346,11 @@ saveHighScore = e => {
 
 /* -------------------- HIGHSCORE */
 
+const highScoresList = document.querySelector('#highScoresList')
+const highScore = JSON.parse(localStorage.getItem("highScore")) || []
 
+highScoresList.innerHTML =
+highScores.map(score => {
+    return `<li class="high-score">${score.name} - ${score.score}</li>`
+}).join("")
 
