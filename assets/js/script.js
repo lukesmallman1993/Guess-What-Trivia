@@ -240,7 +240,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 10
+const MAX_QUESTIONS = 4
 
 startGame = () => {
     questionCounter = 0
@@ -305,7 +305,7 @@ incrementScore = num => {
 
 startGame()
 
-/* --------------------- end page */
+/* -------------------------------- END */
 
 const username = document.querySelector('#username')
 const saveScoreBtn = document.querySelector('#saveScoreBtn')
@@ -343,3 +343,6 @@ saveHighScore = e => {
 
     
 }
+
+
+

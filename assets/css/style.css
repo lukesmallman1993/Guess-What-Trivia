@@ -2,7 +2,7 @@
 
 /*------------------------------ Index page */
 :root {
-    background-color:grey;
+    background-color:rgb(39, 75, 235);
 }
 
 * {
@@ -34,6 +34,8 @@ h2 {
     padding: 2rem;
 }
 
+
+
 .content-column {
     display: flex;
     flex-direction: column;
@@ -44,7 +46,7 @@ h2 {
     align-items: center;
 }
 
-.justify-center {
+.quiz-center {
     justify-content: center;
 }
 
@@ -64,13 +66,13 @@ h2 {
     margin-bottom: 1rem;
     text-decoration: none;
     color: white;
-    background: red;
+    background: rgb(255, 0, 0);
     border-radius: 50px;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 1rem 5rem 0 rgb(104, 0, 0);
+    box-shadow: 0 0.1rem 1rem 0 rgb(104, 0, 0);
     transition: transform 150ms;
     transform: scale(1.03)
 }
@@ -97,7 +99,7 @@ body {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: blue;
+    background: rgb(255, 115, 0);
     font-size: 3rem;
     min-width: 80rem;
 }
@@ -127,7 +129,22 @@ body {
     background: red;
 }
 
-/* HUD */
+.time-number {
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.timer {
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+.timer-content {
+   margin-top: 10rem;
+}
+/* QUIZ */
 
 #quiz {
     display: flex;
@@ -210,3 +227,6 @@ input::placeholder {
     font-size: 2rem;
     color: rgb(28, 26, 26)
 }
+
+/* ------------------------------ HIGHSCORE */
+
