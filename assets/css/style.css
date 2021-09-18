@@ -98,7 +98,7 @@ body {
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 100px;
     background: rgb(255, 115, 0);
     font-size: 3rem;
     min-width: 80rem;
@@ -122,11 +122,11 @@ body {
 }
 
 .correct {
-    background: greenyellow;
+    background: rgb(153, 255, 0);
 }
 
 .incorrect {
-    background: red;
+    background: rgb(255, 0, 0);
 }
 
 .time-number {
