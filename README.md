@@ -27,6 +27,7 @@
 - [**Testing**](#testing)
   - [**Performance Testing**](#performance-testing)
   - [**W3C Validator**](#w3c-validator)
+  - [**Color Change**](#color-change)
 
 - [**Bugs**](#bugs)
 
@@ -85,8 +86,7 @@
    - Red is associated with wrong and danger. Ill be using red for my incorrect answers on my questions to inducate that the question the user selected is incorrect.
   ##### **Green**
    - Green is associated with correct and Go. Ill be using green for my correct answers so that it tells the user that the question they have selected is correct.
-  ##### **Orange**
-   - I'll be using orange for my progress bar in my quiz as I dont want it to clash with any other color. This might change depending on what colors work well together.
+   - I'll be using green for my progress bar in my quiz as when researching a color most of them where this color. This might change depending on what colors work well together.
   ##### **Blue**
    - This will be a temporary color for my background just to make it easier for me to see my changes.
  ### **Wireframes**
@@ -179,6 +179,10 @@
    - 1. Css - [Results](assets/images/validation/css.png)
    - 2. html - [Results](assets/images/validation/html.png)
    - 3. javascript - Codes were checked using [JSHINT](https://jshint.com/) - there where 2 warning ans these where the Missing semicolon and 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+### **Color change**
+ - I decided th change the progress bar as it was the same as the correct color which clashed with eachother. I went with orange as its the same color as the buttons ive been using so wanted to keep a consistency throughout.
+ - Ive also kept the color blue for the background as it took me longer that I planned on the javascript side of my quiz app and wanted it to work first before I changed any of the background.
 
 [Back to contents](#content)
 

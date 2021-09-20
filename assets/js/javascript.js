@@ -253,7 +253,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter == MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign("/end.html")
+        return window.location.assign('/end.html')
     }
 
     questionCounter++
@@ -316,7 +316,7 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 
 const MAX_HIGH_SCORES = 5
 
-finalScore.innerText = ("mostRecentScore")
+finalScore.innerText = mostRecentScore
 
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value
