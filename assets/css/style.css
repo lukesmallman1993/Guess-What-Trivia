@@ -91,9 +91,7 @@ h2 {
 
 /*------------------------------ Quiz Page */
 
-body {
-    color: white;
-}
+
 
 .choice-container {
     display: flex;
@@ -119,6 +117,7 @@ body {
 .choice-text {
     padding: 2rem;
     width: 100%;
+    color: white;
 }
 
 .correct {
@@ -154,10 +153,12 @@ body {
 .quiz-prefix {
     text-align: center;
     font-size: 2rem;
+    color: white;
 }
 
 .quiz-main-text {
     text-align: center;
+    
 }
 
 #progressBar {
