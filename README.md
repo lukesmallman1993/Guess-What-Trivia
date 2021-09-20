@@ -1,6 +1,6 @@
 # Guess What Trivia
 
-[View live project here]()
+[View live project here](https://lukesmallman.github.io/Guess-What-Trivia/)
 
 
 <h2 align="center"><img src="assets/images/responsive.png">
@@ -14,9 +14,7 @@
 - [**Design Choices**](#design-choices)
   - [**Fonts**](#fonts)
   - [**Colours**](#colours)
-  - [**Imagery**](#imagery)
   - [**Wireframes**](#wireframes)
-  - [**Logo**](#logo)
   - [**Names**](#names)
 
 - [**Technologies**](#technologies)
@@ -27,10 +25,7 @@
 - [**Features**](#features)
   
 - [**Testing**](#testing)
-  - [**Functionality Testing**](#functionality-testing)
-  - [**User Story Testing**](#user-story-testing)
   - [**Performance Testing**](#performance-testing)
-  - [**Responsive**](#responsive)
   - [**W3C Validator**](#w3c-validator)
 
 - [**Bugs**](#bugs)
@@ -41,11 +36,9 @@
   - [**Making a Local Clone**](#making-a-local-clone)
 
 - [**Credits**](#credits)
-  - [**Code**](#code)
   - [**Content**](#content)
   - [**Images**](#images)
   - [**Videos**](#videos)
-  - [**Inspiration**](#inspiration)
   - [**Acknowledgements**](#acknowledgements)
   
 ## **UX (User Experience)**
@@ -96,8 +89,6 @@
    - I'll be using orange for my progress bar in my quiz as I dont want it to clash with any other color. This might change depending on what colors work well together.
   ##### **Blue**
    - This will be a temporary color for my background just to make it easier for me to see my changes.
-
- ### **Imagery**
  ### **Wireframes**
   ##### **Home Page**
    - Web - [view](assets/images/wireframes/home-web.png)
@@ -119,7 +110,6 @@
    - Web - [view](assets/images/wireframes/how-to-play-web.png)
    - Ipad - [view](assets/images/wireframes/how-to-play-ipad.png)
    - Iphone - [view](assets/images/wireframes/how-to-play-iphone.png)
- ### **Logo**
  ### **Names**
   - The Trivia Game
   - Quiz Master
@@ -135,9 +125,7 @@
 
 ---
 ## **Technologies**
-  ### **W3C Validator**
-   - 1. Css - [Results](assets/images/validation/css)
-
+  
  ### **Languages**
   - [HTML5](https://en.wikipedia.org/wiki/HTML5). 
     - Used for the main markup language for my game content.
@@ -177,11 +165,27 @@
 
 ---
 ## **Testing**
+  ### **Performance Testing**
+- The website was tested on Google Chrome and Internet Explorer.
+
+- The website was viewed on a variety of devices such as a Desktop , Tablet and Mobile.
+
+- A large ammount of testing was done to make sure all the links worked.
+
+- Friends and family where asked to review the website and give feedback on any changes I could make.
+
+
+### **W3C Validator**
+   - 1. Css - [Results](assets/images/validation/css.png)
+   - 2. html - [Results](assets/images/validation/html.png)
+   - 3. javascript - Codes were checked using [JSHINT](https://jshint.com/) - there where 2 warning ans these where the Missing semicolon and 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 
 [Back to contents](#content)
 
 ---
 ## **Bugs**
+ - The main bug i had on this quiz page was that the score was not submitting on the end page. I had a good look thorugh the code but could not find what the problem was. I tried seeking help but no one got back to me intime so had to leave this out.
+ - Another bug I had was the score at the end did not save which I wanted this to work but no one got back to me with a solution so had to also leave this out
 
 [Back to contents](#content)
 
@@ -217,6 +221,10 @@
 ---
 ## **Credits**
 
+ ### **Content**
+  - https://github.com/LukeSmallman/pure-fitness.git
+  - https://codepen.io/trending 
+
  ### **Images**
    - https://www.cleanpng.com/png-video-cameras-video-production-logo-videography-se-5043403/
    - https://www.pngitem.com/middle/oTxmhT_food-and-drink-icon-png-food-and-drink/
@@ -226,6 +234,15 @@
    - https://www.nicepng.com/ourpic/u2q8q8y3y3t4w7q8_home-fullscalenano-science-icon/
    - https://www.istockphoto.com/vector/math-icon-vector-sign-and-symbol-isolated-on-white-background-gm1001261186-270663659
    
+  ### **Videos**
+   - https://www.youtube.com/watch?v=riDzcEQbX6k
+   - https://www.youtube.com/watch?v=f4fB9Xg2JEY
+   - https://www.youtube.com/watch?v=C7NsIRhoWuE
+   - https://www.youtube.com/watch?v=rFWbAj40JrQ 
+
+  ### **Acknowledgements**
+   - My mentor for helpful me with feedback and problems.
+   - Student support at code institute for their infomation and support.  
 
 
 [Back to contents](#content)
