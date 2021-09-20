@@ -135,6 +135,8 @@
 
 ---
 ## **Technologies**
+  ### **W3C Validator**
+   - 1. Css - [Results](https://jigsaw.w3.org/css-validator/validator)
 
  ### **Languages**
   - [HTML5](https://en.wikipedia.org/wiki/HTML5). 
