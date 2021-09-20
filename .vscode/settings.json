@@ -21,7 +21,7 @@
       "**/CVS": true
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "Default Dark+",
+   "workbench.colorTheme": "Visual Studio Light",
    "editor.defaultFormatter": "HookyQR.beautify",
    "livePreview.defaultPreviewPath": "/quiz-page.html"
 }
