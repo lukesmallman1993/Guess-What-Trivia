@@ -67,11 +67,62 @@
 ## **Design Choices**
 
  ### **Fonts**
+  ##### **Fonts**
+  ![fonts](assets/images/fonts/font-1.png)
+  ![fonts](assets/images/fonts/font-2.png)
+  ![fonts](assets/images/fonts/font-3.png)
+  ![fonts](assets/images/fonts/font-4.png)
+  ![fonts](assets/images/fonts/font-5.png)
+  ![fonts](assets/images/fonts/font-6.png)
+
+  - For my font type it was a tricky one as there was so many on google font to choose from. After some testing and thinking I decided to go with Fredoka One as this was the most eye catching and easier to read. I also used san-serif as a backup just in case my font did not load.
+  
+
  ### **Colours**
+  ##### **White**
+   - White is a sign of simplicity and its clean, These are what im looking for when creating my quiz. Ill be using white for the fonts so that they stand out from other colors.
+  ##### **Red**
+   - Red is associated with wrong and danger. Ill be using red for my incorrect answers on my questions to inducate that the question the user selected is incorrect.
+  ##### **Green**
+   - Green is associated with correct and Go. Ill be using green for my correct answers so that it tells the user that the question they have selected is correct.
+  ##### **Orange**
+   - I'll be using orange for my progress bar in my quiz as I dont want it to clash with any other color. This might change depending on what colors work well together.
+  ##### **Blue**
+   - This will be a temporary color for my background just to make it easier for me to see my changes.
+
  ### **Imagery**
  ### **Wireframes**
+  ##### **Home Page**
+   - Web - [view](assets/images/wireframes/home-web.png)
+   - Ipad - [view](assets/images/wireframes/home-ipad.png)
+   - Iphone - [view](assets/images/wireframes/home-iphone.png)
+  ##### **Quiz Page**
+   - Web - [view](assets/images/wireframes/quiz-web.png)
+   - Ipad - [view](assets/images/wireframes/quiz-ipad.png)
+   - Iphone - [view](assets/images/wireframes/quiz-iphone.png)
+  ##### **End Page**
+   - Web - [view](assets/images/wireframes/end-web.png)
+   - Ipad - [view](assets/images/wireframes/end-ipad.png)
+   - Iphone - [view](assets/images/wireframes/end-iphone.png)
+  ##### **Leaderboard Page**
+   - Web - [view](assets/images/wireframes/leaderboard-web.png)
+   - Ipad - [view](assets/images/wireframes/leaderboard-ipad.png)
+   - Iphone - [view](assets/images/wireframes/leaderboard-iphone.png)
+  ##### **How To Play Page**
+   - Web - [view](assets/images/wireframes/how-to-play-web.png)
+   - Ipad - [view](assets/images/wireframes/how-to-play-ipad.png)
+   - Iphone - [view](assets/images/wireframes/how-to-play-iphone.png)
  ### **Logo**
  ### **Names**
+  - The Trivia Game
+  - Quiz Master
+  - Quiz Trivia
+  - Guess Trivia
+  - Guess What
+  - Think
+  - Think Trivia
+  
+  After thinking about this section I decided to go with Guess What as it's catchy and easy to remember.
 
 [Back to contents](#content)
 
