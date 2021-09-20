@@ -99,142 +99,6 @@ let questions = [
             choice3: "Chris Brown",
             choice4: "John Cena",
             answer: "4"
-        },
-      
-        {
-            question: "Where is the world tallest building located ?",
-            choice1: "Africa",
-            choice2: "California",
-            choice3: "Dubai",
-            choice4: "Italy",
-            answer: "3"
-        },
-      
-        {
-            question: "The longest river in the United Kingdom is ?",
-            choice1: "River Severn",
-            choice2: "River Mersey",
-            choice3: "River Trent",
-            choice4: "River Tweed",
-            answer: "1"
-        },
-      
-      
-        {
-            question: "How many permanent teeth does a dog have ?",
-            choice1: "38",
-            choice2: "42",
-            choice3: "40",
-            choice4: "36",
-            answer: "2"
-        },
-      
-        {
-            question: "Which national team won the football World cup in 2018 ?",
-            choice1: "England",
-            choice2: "Brazil",
-            choice3: "Germany",
-            choice4: "France",
-            answer: "4"
-        },
-      
-        {
-            question: "Which US state was Donald Trump Born ?",
-            choice1: "New York",
-            choice2: "California",
-            choice3: "New Jersey",
-            choice4: "Los Angeles",
-            answer: "1"
-        },
-      
-        {
-            question: "How man states does Nigeria have ?",
-            choice1: "24",
-            choice2: "30",
-            choice3: "36",
-            choice4: "37",
-            answer: "3"
-        },
-      
-        {
-            question: "____ is the capital of Nigeria ?",
-            choice1: "Abuja",
-            choice2: "Lagos",
-            choice3: "Calabar",
-            choice4: "Kano",
-            answer: "1"
-        },
-      
-        {
-            question: "Los Angeles is also known as ?",
-            choice1: "Angels City",
-            choice2: "Shining city",
-            choice3: "City of Angels",
-            choice4: "Lost Angels",
-            answer: "3"
-        },
-      
-        {
-            question: "What is the capital of Germany ?",
-            choice1: "Georgia",
-            choice2: "Missouri",
-            choice3: "Oklahoma",
-            choice4: "Berlin",
-            answer: "4"
-        },
-      
-        {
-            question: "How many sides does an hexagon have ?",
-            choice1: "Six",
-            choice2: "Sevene",
-            choice3: "Four",
-            choice4: "Five",
-            answer: "1"
-        },
-      
-        {
-            question: "How many planets are currently in the solar system ?",
-            choice1: "Eleven",
-            choice2: "Seven",
-            choice3: "Nine",
-            choice4: "Eight",
-            answer: "4"
-        },
-      
-        {
-            question: "Which Planet is the hottest ?",
-            choice1: "Jupitar",
-            choice2: "Mercury",
-            choice3: "Earth",
-            choice4: "Venus",
-            answer: "2"
-        },
-      
-        {
-            question: "where is the smallest bone in human body located?",
-            choice1: "Toes",
-            choice2: "Ears",
-            choice3: "Fingers",
-            choice4: "Nose",
-            answer: "2"
-        },
-      
-        {
-            question: "How many hearts does an Octopus have ?",
-            choice1: "One",
-            choice2: "Two",
-            choice3: "Three",
-            choice4: "Four",
-            answer: "3"
-        },
-      
-        {
-            question: "How many teeth does an adult human have ?",
-            choice1: "28",
-            choice2: "30",
-            choice3: "32",
-            choice4: "36",
-            answer: "3"
         }
       
 ]
@@ -250,10 +114,10 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter === MAX_QUESTIONS) {
+    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign('end-page.html')
     }
 
     questionCounter++
