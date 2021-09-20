@@ -77,7 +77,7 @@ h2 {
     transform: scale(1.03)
 }
 
-.btn[:disabled]:hover {
+.btn:disabled:hover {
     cursor:not-allowed;
     box-shadow: none;
     transform: none;
@@ -109,7 +109,6 @@ body {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgb(3, 3, 88);
     transform: scale(1.02);
-    transform: transform 100ms;
 }
 
 .choice-prefix {

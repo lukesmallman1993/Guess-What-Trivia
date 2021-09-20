@@ -162,6 +162,14 @@
 
 ---
 ## **Features**
+1. ![fonts](assets/images/features/score.png) 
+- This feature will be adding all the correct answers you get throughout the quiz.
+2. ![fonts](assets/images/features/question-count.png) 
+- This feature will keep track of what question you are on durring the quiz.
+3. ![fonts](assets/images/features/incorrect-answer.png) 
+- When playing the quiz, if you have a question wrong the box you have selected will turn red to indicate that you had that one wrong.
+4. ![fonts](assets/images/features/correct-answer.png) 
+- When playing the quiz, if you have a question correct the box you have selected will turn greebn to indicate that you had that one correct.
 
 [Back to contents](#content)
 
