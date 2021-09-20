@@ -1,3 +1,10 @@
+# Guess What Trivia
+
+[View live project here]()
+
+
+<h2 align="center"><img src="assets/images/responsive.png">
+
 ## **Content**
 
 - [**UX (User Experience)**](#ux-user-experience)
