@@ -14,7 +14,7 @@
 }
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 6vw;
     color: white;
     margin-bottom: 5rem;
 }
@@ -179,7 +179,8 @@ h2 {
 
 @media screen and (max-width: 768px) {
     .choice-container {
-        min-width: 10rem;
+        min-width: 10%;
+
 
     }
 
