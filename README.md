@@ -51,17 +51,19 @@
 
 
  ### **User Stories**
-  - First Time Visitor Goals
-    - As a first time user, I want to easily navigate throught the game without getting confused.
-    - As a first time user, I want the game to be responive so that it can be viwed on different displays and device.
-    - As a first time user, I want the game to have a interactive design.
-    - As a first time user, I want to see a section on the rules and how to play.
-    - as a first time user, I want to have a section where I can log my highscore.
+  - User Goals
+    - As a user, I would like to easily navigate through the game without getting confused.
+    - As a user, I would like the game to be responsive so that it can be played on different devices.
+    - As a user, I would like the game to be interactive.
+    - As a user, I want to see a section on how to play the game.
+    - as a user, I want to have a section where I can log my highscore.
 
-  - Returning Visitor Goals
-    - As a returning visitor, I want to see improvment made to the game and site design.
-    - As a returning visitor, I want to see if I can beat my highscore.
-    - As a returning visitor, I want to see a change in the questions and not just the same ones over again.
+  - Game Owner Goals
+    - The game's goal is to provide challenging questions to test your knowledge.
+    - The goal is to add features that will make the game interesting for example:
+      - Highscore
+      - Question counter
+      - Score counter 
 
 [Back to contents](#content)
 
