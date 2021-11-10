@@ -26,8 +26,12 @@
   
 - [**Testing**](#testing)
   - [**Performance Testing**](#performance-testing)
+  - [**Lighthouse**](#lighthouse)
+  - [**User Stories Testing**](#user-stories-testing)
+  - [**Manual Testing**](#manual-testing)
   - [**W3C Validator**](#w3c-validator)
-  - [**Color Change**](#color-change)
+  - [**Color Change Testing**](#color-change-testing)
+  - [**Testing Deployed Site**](#testing-deployed-site)
 
 - [**Bugs**](#bugs)
 
@@ -56,7 +60,7 @@
     - As a user, I would like the game to be responsive so that it can be played on different devices.
     - As a user, I would like the game to be interactive.
     - As a user, I want to see a section on how to play the game.
-    - as a user, I want to have a section where I can log my highscore.
+    - As a user, I want to have a section where I can log my highscore.
 
   - Game Owner Goals
     - The game's goal is to provide challenging questions to test your knowledge.
@@ -176,22 +180,112 @@
 
 - Friends and family where asked to review the website and give feedback on any changes I could make.
 
+### **Lighthouse**
+ After running my app through lighthouse on a desktop I got the following results:
+  - Performance - 97
+  - Accessibility - 93
+  - Best Practices - 100
+  - SEO - 89
+![fonts](assets/images/lighthouse.png)
 
+### **User Stories Testing**
+1. As a user, I would like to easily navigate through the game without getting confused.
+ - As a user they can navigate through the app without getting confused.
+ - All buttons are easily readable and nothing is clashed with eachother.
+ - They can navigate back to the home page without re-freshing the page.
+ - They know exactly what button to press as all buttons are labeled.
+
+2. As a user, I would like the game to be responsive so that it can be played on different devices.
+ - The game has been tested on multiple platforms and there where no problems on each of them.
+
+3. As a user, I would like the game to be interactive.
+ - The game has multiple buttons that you can interact with.
+ - All questions are interactive with hover over features to make it easier for the user.
+
+4. As a user, I want to see a section on how to play the game.
+ - There is a section on the home page for the user to understand how to play the game, just incase the user gets confused.
+
+5. As a user, I want to have a section where I can log my highscore.
+ - After finishing the game you can log your name and highscore.
+ - This can be accessed on the home page.
+
+### **Manual Testing**
+
+In order to make sure my game was fully responsive across multiple screen sizes, I used Google developer tools. I manually went through each page to check if all was working correctly. I started with a Iphone 5/SE which was the smallest screen and worked my way up to a Ipad Pro which was the biggest size.
+
+ 1. Home Page 
+  - Clicked on all buttons to verify that each one navigated to the right page.
+  - Checked that all buttons reduced and fitted on each device.
+  - Made sure all text was easily visible on all devices.
+
+2. Quiz Page
+ - Checked that all questions where highlighting with green/Red for each answer.
+ - Checked that the score was increasing with each correct answer.
+ - Checked that after selecting a answer the question count will increase and also the question would change.
+
+3. End Page
+ - Checked to see all buttons where directed to the correct pages.
+ - Checked that the score you had was showing and was also correct.
+ - Checked to see if you was able to add your name and submit your score.
+
+4. Highscore Page
+ - Checked to see if your score was added to the highscore page.
+ - checked that all buttons where directing you to the correct pages.
+ 
 ### **W3C Validator**
    - 1. Css - [Results](assets/images/validation/css.png)
    - 2. html - [Results](assets/images/validation/html.png)
    - 3. javascript - Codes were checked using [JSHINT](https://jshint.com/) - there where 2 warning ans these where the Missing semicolon and 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 
-### **Color change**
- - I decided th change the progress bar as it was the same as the correct color which clashed with eachother. I went with orange as its the same color as the buttons ive been using so wanted to keep a consistency throughout.
+### **Color Change Testing**
+ - I decided to change the progress bar as it was the same as the correct color which clashed with eachother. I went with orange as its the same color as the buttons ive been using so wanted to keep a consistency throughout.
  - Ive also kept the color blue for the background as it took me longer that I planned on the javascript side of my quiz app and wanted it to work first before I changed any of the background.
+
+### **Feature Testing**
+
+1. Correct Answer - When a correct answer is selected the answer will turn green.
+
+ ![fonts](assets/images/correct.png)
+
+2. Incorrect Answer - When a incorrect is sleected the answer will turn red.
+
+ ![fonts](assets/images/wrong.png)
+
+3. Name and Score - When the quiz as finished, it will give you the option to save and submit your name and score.
+
+ ![fonts](assets/images/end.png)
+
+4. Highscore - After submiting your score, your score will be saved onto the highscore page.
+
+ ![fonts](assets/images/highscore.png)
+
+
+### **Testing Deployed Site**
+
+- A variety of testing was carried out to insure that all content was correct and everything was working as it should be. This was to make sure eveything matched the final development version.
 
 [Back to contents](#content)
 
 ---
 ## **Bugs**
- - The main bug i had on this quiz page was that the score was not submitting on the end page. I had a good look thorugh the code but could not find what the problem was. I tried seeking help but no one got back to me intime so had to leave this out.
- - Another bug I had was the score at the end did not save which I wanted this to work but no one got back to me with a solution so had to also leave this out
+
+**Resolved Bugs**
+
+1. Issue - When clicking on the submit button the score did not save.
+
+ - Resolution - There was a typing error on my script tag and once changed this fixed the problem
+
+2. Issue - When I came to the end page, I could not submit my score or write my name.
+
+ - Resolution - I found out that beacuase all my javascirpt was in one file it was not getting the final outcome I was looking for, so I created a javascript file for each page and link them all correctly and this fixed the problem I was having.
+
+ 3. Issue - When shrinking down to a smaller screen some of my content was getting cut off.
+
+  - Resolution - I change the size of the H1 text from 6rem to 4.5vw. By changing this is reduced the size of the text and also made the responsive work better.
+
+**Existing Bugs**
+
+1. There where no known bugs at the point of deployment.
 
 [Back to contents](#content)
 
