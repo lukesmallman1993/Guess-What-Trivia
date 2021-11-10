@@ -31,6 +31,7 @@
   - [**Manual Testing**](#manual-testing)
   - [**W3C Validator**](#w3c-validator)
   - [**Color Change Testing**](#color-change-testing)
+  - [**Feature Testing**](#feature-testing)
   - [**Testing Deployed Site**](#testing-deployed-site)
 
 - [**Bugs**](#bugs)
