@@ -33,6 +33,7 @@
   - [**Color Change Testing**](#color-change-testing)
   - [**Feature Testing**](#feature-testing)
   - [**Testing Deployed Site**](#testing-deployed-site)
+  - [**Final Test**](#final-test)
 
 - [**Bugs**](#bugs)
 
@@ -191,10 +192,10 @@
 
 ### **User Stories Testing**
 1. As a user, I would like to easily navigate through the game without getting confused.
- - As a user they can navigate through the app without getting confused.
- - All buttons are easily readable and nothing is clashed with eachother.
- - They can navigate back to the home page without re-freshing the page.
- - They know exactly what button to press as all buttons are labeled.
+ - To achieve this I have ensured that the navigation throughout the app is accesible therefore ensuring that the users don't get confused.
+ - All buttons are easily readable and the colour scheme I have used compliments each other.
+ - The users can navigate back to the home page using the 'home' button without re-freshing the page.
+ - All buttons are clearly labeled therefore the user will know what buttons to use for what. E.g. pressing 'play game' button will start the game.
 
 2. As a user, I would like the game to be responsive so that it can be played on different devices.
  - The game has been tested on multiple platforms and there where no problems on each of them.
@@ -202,13 +203,14 @@
 3. As a user, I would like the game to be interactive.
  - The game has multiple buttons that you can interact with.
  - All questions are interactive with hover over features to make it easier for the user.
+ - The answers for the questions are either red or green depending if the correct answer has been chosen. E.g. green highlighted button means you have chosen the correct answer.
 
 4. As a user, I want to see a section on how to play the game.
- - There is a section on the home page for the user to understand how to play the game, just incase the user gets confused.
+ - There is a section on the home page for the user to understand how to play the game, just incase the user needs clarification on said game.
 
 5. As a user, I want to have a section where I can log my highscore.
- - After finishing the game you can log your name and highscore.
- - This can be accessed on the home page.
+ - After finishing the game you can log your name and highscore, this compares to previous high scores so you can see who has achieved the highest/lowest etc.
+ - This can be accessed via the home page.
 
 ### **Manual Testing**
 
@@ -216,13 +218,13 @@ In order to make sure my game was fully responsive across multiple screen sizes,
 
  1. Home Page 
   - Clicked on all buttons to verify that each one navigated to the right page.
-  - Checked that all buttons reduced and fitted on each device.
-  - Made sure all text was easily visible on all devices.
+  - Checked and adjusted size of text when necessary to ensure it fits every platform where the app would be used.
+  - Made sure all text colours and font was easily visible on all devices.
 
 2. Quiz Page
- - Checked that all questions where highlighting with green/Red for each answer.
+ - Checked that all questions where highlighting with either green or red depending on the answer being correct/wrong.
  - Checked that the score was increasing with each correct answer.
- - Checked that after selecting a answer the question count will increase and also the question would change.
+ - Checked that after selecting a answer the question count will increase and it would progress to the next question. 
 
 3. End Page
  - Checked to see all buttons where directed to the correct pages.
@@ -252,7 +254,7 @@ In order to make sure my game was fully responsive across multiple screen sizes,
 
  ![fonts](assets/images/wrong.png)
 
-3. Name and Score - When the quiz as finished, it will give you the option to save and submit your name and score.
+3. Name and Score - When you have completed the quiz, it will give you the option to save and submit your name and score.
 
  ![fonts](assets/images/end.png)
 
@@ -264,6 +266,12 @@ In order to make sure my game was fully responsive across multiple screen sizes,
 ### **Testing Deployed Site**
 
 - A variety of testing was carried out to insure that all content was correct and everything was working as it should be. This was to make sure eveything matched the final development version.
+
+### **Final Test**
+
+After completing the code I thought it was appropriate to check that everything was working effectivly to ensure I hit target goals and expectations that this task required. Once the final deployment was made as you can see from the image, I had three people test the game just to make sure eveything was working as it should be and that I had a second pair of eyes, just in case I missed something.
+
+![fonts](assets/images/score.png)
 
 [Back to contents](#content)
 
@@ -286,7 +294,7 @@ In order to make sure my game was fully responsive across multiple screen sizes,
 
 **Existing Bugs**
 
-1. There where no known bugs at the point of deployment.
+1. Google chrome has come up with an error code 'Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.'. It's a new feature on google developer tools, but is still under development so this code is just a bug in the system.
 
 [Back to contents](#content)
 

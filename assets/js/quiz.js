@@ -13,7 +13,7 @@ let availableQuestions = [];
 
 let questions = [
         {
-            question: "How many days makes a week ?",
+            question: "How many days makes a week?",
             choice1: "10 days",
             choice2: "14 days",
             choice3: "5 days",
@@ -22,7 +22,7 @@ let questions = [
         },
       
         {
-            question: "How many players are allowed on a football pitch ?",
+            question: "How many players are allowed on a football pitch?",
             choice1: "10 players",
             choice2: "11 players",
             choice3: "9 players",
@@ -31,7 +31,7 @@ let questions = [
         },
       
         {
-            question: "Who was the first President of USA ?",
+            question: "Who was the first President of USA?",
             choice1: "Donald Trump",
             choice2: "Barack Obama",
             choice3: "Abraham Lincoln",
@@ -40,7 +40,7 @@ let questions = [
         },
       
         {
-            question: "30 days has ______ ?",
+            question: "What month has 30 days?",
             choice1: "January",
             choice2: "December",
             choice3: "June",
@@ -49,7 +49,7 @@ let questions = [
         },
       
         {
-            question: "How many hours can be found in a day ?",
+            question: "How many hours can be found in a day?",
             choice1: "30 hours",
             choice2: "38 hours",
             choice3: "48 hours",
@@ -58,7 +58,7 @@ let questions = [
         },
       
         {
-            question: "Which is the longest river in the world ?",
+            question: "Which is the longest river in the world?",
             choice1: "River Nile",
             choice2: "Long River",
             choice3: "River Niger",
@@ -67,7 +67,7 @@ let questions = [
         },
       
         {
-            question: "_____ is the hottest Continent on Earth ?",
+            question: "_____ is the hottest Continent on Earth?",
             choice1: "Oceania",
             choice2: "Antarctica",
             choice3: "Africa",
@@ -76,7 +76,7 @@ let questions = [
         },
       
         {
-            question: "Which country is the largest in the world ?",
+            question: "Which country is the largest in the world?",
             choice1: "Russia",
             choice2: "Canada",
             choice3: "Africa",
@@ -85,7 +85,7 @@ let questions = [
         },
       
         {
-            question: "Which of these numbers is an odd number ?",
+            question: "Which of these numbers is an odd number?",
             choice1: "Ten",
             choice2: "Twelve",
             choice3: "Eight",
